@@ -21,11 +21,11 @@ BLUETOOTH_ENABLE = no      # Enable Bluetooth with the Adafruit EZ-Key HID
 AUDIO_ENABLE = no          # Audio output
 SPLIT_KEYBOARD = yes       # Split common
 LTO_ENABLE = yes           # Use Link Time Optimization
-OLED_DRIVER_ENABLE = no    # Enables the use of OLED displays
+OLED_DRIVER_ENABLE = yes   # Enables the use of OLED displays
 ENCODER_ENABLE = yes       # Enables the use of one or more encoders
 SPACE_CADET_ENABLE = no    # Enables the use of Space Cadet
 GRAVE_ESC_ENABLE = no      # Enables the use of grave key as escape key
-RGBLIGHT_ENABLE = yes      # Enable keyboard RGB underglow
+RGBLIGHT_ENABLE = no      # Enable keyboard RGB underglow
 CUSTOM_MATRIX = lite       # Split custom matrix
 
 # Project specific files
